@@ -22,6 +22,11 @@ This repository contains a simple PowerShell script (`compress.ps1`) that uses `
    ```powershell
    ./compress.ps1
    ```
+   Or
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\compress.ps1
+   ```
+   
 4. Compressed videos will appear in the corresponding subfolders.
 
 ## Notes
